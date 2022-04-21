@@ -221,11 +221,15 @@ form {
 #details{
     background-color:whitesmoke;
     min-height: 30vh;
+    height: 100vh;
     line-height: 1.8;
     border:5px solid lightpink;
     scroll-behavior: smooth;
+    display: flex;
+    justify-content: center;
+    padding-top: 100px;
     /*Adds margin to the top of the viewport*/
-    scroll-margin-block-start: 400px;
+    /* scroll-margin-block-start: 400px; */
     /*Adds margin to the bottom of the viewport*/
     scroll-margin-block-end: 110pxx;
 }
